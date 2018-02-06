@@ -1,0 +1,100 @@
+---------------------testovi SG------------------
+----------------test1-------------
+
+real	0m1.666s
+user	0m2.028s
+sys	0m3.688s
+
+real	0m1.595s
+user	0m1.868s
+sys	0m3.704s
+
+real	0m1.601s
+user	0m1.964s
+sys	0m3.620s
+
+real	0m1.614s
+user	0m1.904s
+sys	0m3.736s
+
+real	0m1.702s
+user	0m2.044s
+sys	0m3.780s
+----------------test2-------------
+./test.sh: line 11: ./stream_gate_host: No such file or directory
+
+real	0m0.000s
+user	0m0.000s
+sys	0m0.000s
+./test.sh: line 12: ./stream_gate_host: No such file or directory
+
+real	0m0.000s
+user	0m0.000s
+sys	0m0.000s
+./test.sh: line 13: ./stream_gate_host: No such file or directory
+
+real	0m0.000s
+user	0m0.000s
+sys	0m0.000s
+./test.sh: line 14: ./stream_gate_host: No such file or directory
+
+real	0m0.000s
+user	0m0.000s
+sys	0m0.000s
+./test.sh: line 15: ./stream_gate_host: No such file or directory
+
+real	0m0.000s
+user	0m0.000s
+sys	0m0.000s
+----------------test3-------------
+./test.sh: line 11: ./stream_gate_host: No such file or directory
+
+real	0m0.000s
+user	0m0.000s
+sys	0m0.000s
+./test.sh: line 12: ./stream_gate_host: No such file or directory
+
+real	0m0.000s
+user	0m0.000s
+sys	0m0.000s
+./test.sh: line 13: ./stream_gate_host: No such file or directory
+
+real	0m0.000s
+user	0m0.000s
+sys	0m0.000s
+./test.sh: line 14: ./stream_gate_host: No such file or directory
+
+real	0m0.000s
+user	0m0.000s
+sys	0m0.000s
+./test.sh: line 15: ./stream_gate_host: No such file or directory
+
+real	0m0.000s
+user	0m0.000s
+sys	0m0.000s
+----------------test4-------------
+./test.sh: line 11: ./stream_gate_host: No such file or directory
+
+real	0m0.001s
+user	0m0.000s
+sys	0m0.000s
+./test.sh: line 12: ./stream_gate_host: No such file or directory
+
+real	0m0.000s
+user	0m0.000s
+sys	0m0.000s
+./test.sh: line 13: ./stream_gate_host: No such file or directory
+
+real	0m0.000s
+user	0m0.000s
+sys	0m0.000s
+./test.sh: line 14: ./stream_gate_host: No such file or directory
+
+real	0m0.000s
+user	0m0.000s
+sys	0m0.000s
+./test.sh: line 15: ./stream_gate_host: No such file or directory
+
+real	0m0.000s
+user	0m0.000s
+sys	0m0.000s

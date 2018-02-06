@@ -1,0 +1,13 @@
+digraph streamit {
+size="6.5,9"
+subgraph cluster_node1 {
+ color = black
+
+ label="TopLevel1_VSource__4_4_Hier_Hier";
+node2 [ label="VSource__4_4\npartition=0\n*** STATEFUL ***" color="0.59166,0.61,0.7" style="filled" ]
+node3 [ label="Worker__10_5\npartition=1" color="0.53333,0.09,0.97" style="filled" ]
+node2 -> node3
+node4 [ label="FloatPopper__13_6\npartition=2" color="0.07777,0.61,0.99" style="filled" ]
+node3 -> node4
+}
+}

@@ -1,0 +1,8 @@
+digraph Flattend {
+size = "8, 10.5";
+1915318863 [ label="1915318863\n\nMemoryReader__2_4{})\n(peek, pop, push: (0, 0, 1)\nMult: init 0, steady 16\nTile: -1\n *** " ];
+1915318863 -> 295530567;
+295530567 [ label="295530567\n\nWorker__7_5{})\n(peek, pop, push: (2, 2, 1)\nMult: init 0, steady 8\nTile: 0\n *** " ];
+295530567 -> 1324119927;
+1324119927 [ label="1324119927\n\nMemoryWriter__10_6{})\n(peek, pop, push: (1, 1, 0)\nMult: init 0, steady 8\nTile: -1\n *** " ];
+}

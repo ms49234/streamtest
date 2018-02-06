@@ -1,0 +1,47 @@
+void->float stateful filter VSource1 {
+    float val;
+    init {
+        val = 0;
+    }
+    work push 1 {
+	val += 3.25;
+        push(val);
+    }
+}
+
+void->float stateful filter VSource2 {
+    float val;
+    init {
+        val = 0;
+    }
+    work push 1 {
+	val += 0.42;
+        push(val);
+    }
+}
+
+float->float filter Merger {
+    work push 1 pop 2 {
+	float x = pop();
+	float y = pop();
+	push((x-y)*(x-y));
+    }
+}
+
+float->void filter FloatSink {
+    work pop 1 {
+        pop();
+    }
+}
+
+void->void pipeline VectorDist {
+add splitjoin {
+	split roundrobin(0);
+        add VSource1();
+        add VSource2();
+        join roundrobin();
+        };
+    add Merger;
+    add FloatSink();
+}
+

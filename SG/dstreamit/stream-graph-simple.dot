@@ -1,0 +1,10 @@
+digraph streamit {
+subgraph cluster_node1 {
+ label="VectorDist";
+node2 [ label="MemoryReader" ]
+node3 [ label="Worker" ]
+node2 -> node3
+node4 [ label="MemoryWriter" ]
+node3 -> node4
+}
+}

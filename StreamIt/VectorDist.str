@@ -1,0 +1,43 @@
+void->float stateful filter VSource {
+    float x;
+    float y;
+    init {
+        x = 0;
+        y = 0;
+    }
+    work push 2 {
+	x += 3.25;
+        push(x);
+	y += 0.42;
+        push(y);
+    }
+}
+
+float->float filter Worker {
+    work push 1 pop 2 {
+		float x = pop();
+		float y = pop();
+		push((x - y) * (x - y));
+    }
+}
+/*
+float->void filter FloatPrinter {
+    work pop 1 {
+        println(pop());
+    }
+}
+*/
+
+float->void filter FloatPopper {
+    work pop 1 {
+		pop();
+    }
+}
+
+void->void pipeline VectorDist {
+    add VSource();
+    add Worker();
+//    add FloatPrinter();
+	add FloatPopper();
+}
+

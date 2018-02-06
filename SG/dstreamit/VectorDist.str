@@ -1,0 +1,13 @@
+float->float filter Worker {
+    work push 1 pop 2 {
+	float x = pop();
+	float y = pop();
+	push((x - y) * (x - y));
+    }
+}
+
+void -> void pipeline VectorDist {
+add MemoryReader <float>("in_buff", 0);
+add Worker();
+add MemoryWriter <float>("out_buff", 0);
+}

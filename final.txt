@@ -1,0 +1,110 @@
+---------------------testovi c++------------------
+user	0m0.080s
+user	0m0.084s
+user	0m0.076s
+user	0m0.080s
+user	0m0.076s
+---------------------testovi SG------------------
+----------------test1-------------
+user	0m0.308s
+user	0m0.328s
+user	0m0.280s
+user	0m0.328s
+user	0m0.312s
+----------------test2-------------
+user	0m0.724s
+user	0m0.724s
+user	0m0.652s
+user	0m0.708s
+user	0m0.728s
+----------------test3-------------
+user	0m1.420s
+user	0m1.340s
+user	0m1.388s
+user	0m1.436s
+user	0m1.404s
+----------------test4-------------
+user	0m2.060s
+user	0m1.908s
+user	0m1.876s
+user	0m1.784s
+user	0m2.104s
+---------------------testovi StreamIt------------------
+----------------test0-------------
+user	0m0.024s
+user	0m0.024s
+user	0m0.024s
+user	0m0.024s
+user	0m0.024s
+----------------test1-------------
+user	0m0.020s
+user	0m0.020s
+user	0m0.020s
+user	0m0.016s
+user	0m0.020s
+----------------test2-------------
+user	0m0.144s
+user	0m0.140s
+user	0m0.136s
+user	0m0.176s
+user	0m0.180s
+----------------test3-------------
+user	0m0.268s
+user	0m0.264s
+user	0m0.252s
+user	0m0.260s
+user	0m0.264s
+----------------test4-------------
+user	0m0.256s
+user	0m0.252s
+user	0m0.264s
+user	0m0.260s
+user	0m0.256s
+----------------test5-------------
+user	0m0.272s
+user	0m0.264s
+user	0m0.268s
+user	0m0.260s
+user	0m0.256s
+----------------test6-------------
+user	0m0.276s
+user	0m0.260s
+user	0m0.268s
+user	0m0.256s
+user	0m0.264s
+----------------test7-------------
+user	0m0.256s
+user	0m0.296s
+user	0m0.264s
+user	0m0.244s
+user	0m0.260s
+----------------test8-------------
+user	0m0.256s
+user	0m0.248s
+user	0m0.252s
+user	0m0.248s
+user	0m0.260s
+----------------test9-------------
+user	0m0.260s
+user	0m0.264s
+user	0m0.260s
+user	0m0.264s
+user	0m0.348s
+----------------test10-------------
+user	0m0.272s
+user	0m0.244s
+user	0m0.260s
+user	0m0.268s
+user	0m0.264s
+----------------test11-------------
+user	0m0.280s
+user	0m0.248s
+user	0m0.260s
+user	0m0.252s
+user	0m0.260s
+----------------test12-------------
+user	0m0.276s
+user	0m0.256s
+user	0m0.244s
+user	0m0.260s
+user	0m0.256s

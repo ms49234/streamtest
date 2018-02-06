@@ -1,0 +1,18 @@
+STRC_OPTIONS = -streamgate
+STRC_OPTIONS_SMP = -smp
+CNUM = 4
+
+.PHONY: all smp clean
+
+all: smp
+
+smp: VectorDist.str
+	strc $(STRC_OPTIONS) $(STRC_OPTIONS_SMP) $(CNUM) VectorDist.str -o VectorDist
+	make
+
+clean: 
+	rm -fr *.dot *.h *.c *.cpp *.gph *.txt *.java *.o *.exe *.a Makefile
+
+test: VectorDist.str
+	strc $(STRC_OPTIONS) $(STRC_OPTIONS_SMP) $(CORE_NUM) VectorDist.str -o VectorDist
+	make
